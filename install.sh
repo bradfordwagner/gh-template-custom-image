@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 # example install script; replace with the packages this image needs
 pkg_installer=${1}
 
