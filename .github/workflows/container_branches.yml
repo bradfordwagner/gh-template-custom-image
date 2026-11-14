@@ -8,7 +8,7 @@ on:
   workflow_dispatch: {}
 jobs:
   container:
-    uses: bradfordwagner/gh-template-lib/.github/workflows/custom.yml@feat/custom
+    uses: bradfordwagner/gh-template-lib/.github/workflows/custom.yml@feat/oci-gitignore
     permissions:
       contents: read
       packages: write
