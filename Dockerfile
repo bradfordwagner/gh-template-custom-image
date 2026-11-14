@@ -1,4 +1,4 @@
-# OS is injected by the dagger custom flavor as <upstream.repo>:<upstream.tag>-<os>
+# OS is passed in by gh-template-lib's custom flavor as <upstream.repo>:<upstream.tag>-<os>
 ARG OS
 
 FROM ${OS}
